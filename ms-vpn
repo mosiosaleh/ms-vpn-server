@@ -3,9 +3,7 @@
 cd ~/ms-vpn-server/
 echo " 
 
-Servers 1 to 20 are randomly connected to different countries
-And
-Servers 20 to 40 are also listed below
+[1 - 20]:Random
 
 [21]:Japan server 1 
 [22]:Japan server 2 
