@@ -1,0 +1,43 @@
+#!/bin/bash
+
+cd ~/ms-vpn-server/
+echo " 
+
+Servers 1 to 20 are randomly connected to different countries
+And
+Servers 20 to 40 are also listed below
+
+[21]:Japan server 1 
+[22]:Japan server 2 
+[23]:Japan server 3 
+[24]:Netherlands server 1
+[25]:Netherlands server 2
+[26]:Netherlands server 3
+[27]:Netherlands server 4
+[28]:Netherlands server 5
+[29]:Netherlands server 6
+[30]:Netherlands server 7
+[31]:Netherlands server 8 
+[32]:United States server 1
+[33]:United States server 2
+[34]:United States server 3
+[35]:United States server 4
+[36]:United States server 5
+[37]:United States server 6
+[38]:United States server 7
+[39]:United States server 8
+[40]:United States server 9
+
+Enter a number to connect
+
+Press ctrl+C to disable vpn 
+
+
+
+
+maked by : mosiosal
+
+Instagram & Telegram ID : @mosiosal 
+"
+read -p "Select Your Server: " server
+sudo openvpn server-${server}.ovpn
